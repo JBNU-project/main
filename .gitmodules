@@ -1,0 +1,3 @@
+[submodule "IOPaint"]
+	path = IOPaint
+	url = https://github.com/Sanster/IOPaint.git
