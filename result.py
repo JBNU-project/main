@@ -9,9 +9,9 @@ import time
 import json
 import numpy as np
 
-openai.api_key = "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" # api 키 입력
-api_url = 'https://07ktu906ea.apigw.ntruss.com/custom/v1/36313/bed6639b589abc0b59718e07265c29e822718f2aedec95402b9fdce40e65e94a/general'
-secret_key = 'R3d1UmV4SHJlZkxlY0h6cVV2dEhyVGxQR2h3cGhPbWY='
+openai.api_key = "OPEN_AI_APIKEY" # api 키 입력
+api_url = 'NAVER_CLOVA_OCR_URL'
+secret_key = 'NAVER_CLOVA_OCR_KEY'
 
 def merge_boxes_with_text(boxes_with_text, merge_margin=50):
     """
